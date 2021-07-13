@@ -1,0 +1,1 @@
+!function(){"use strict";var n=document.getElementById("burgermenu");n.addEventListener("click",(function(){n.classList.contains("animOne")?(n.classList.remove("animSecond"),n.ontransitionend=function(){return n.classList.remove("animOne")}):(n.classList.add("animOne"),n.ontransitionend=function(){return n.classList.add("animSecond")})}))}();
